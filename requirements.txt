@@ -1,5 +1,4 @@
 json5==0.9.5
-jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
 requests @ file:///tmp/build/80754af9/requests_1608241421344/work
 requests-oauthlib==1.3.0
 spotipy==2.19.0
