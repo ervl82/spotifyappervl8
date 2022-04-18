@@ -14,7 +14,7 @@ docs = 'https://spotipy.readthedocs.io/en/2.19.0/?highlight=get_access_token#spo
 # import relevant libraries
 import json # to handle API requests outputs
 import requests # to make requests to API
-from secrets import * # secrets.py file contains clientId, clientSecret, redirect_url
+from secrets import * # secrets.py file contains clientId, clientSecret, redirect_url, redirect_url2
 import spotipy # to use spotipy library functions
 from spotipy.oauth2 import SpotifyOAuth # to get Access Token
 
@@ -37,7 +37,7 @@ scope = "playlist-modify-private playlist-read-collaborative playlist-read-priva
 
 
 # define oauth object and get access token
-sp_oauth = SpotifyOAuth( clientId, clientSecret,redirect_url,scope=scope)
+sp_oauth = SpotifyOAuth( clientId, clientSecret,redirect_url2,scope=scope)
 
 spotify_token = ""
 
